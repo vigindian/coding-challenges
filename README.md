@@ -1,6 +1,6 @@
 # Coding Challenges
 
-## Count Vowel Permutations
+## 1. Count Vowel Permutations
 Count all possible N-length vowel permutations that can be generated based on the given conditions. Rules:
 - Each ‘a’ may only be followed by an ‘e’.
 - Each ‘e’ may only be followed by an ‘a’ or an ‘i’.
@@ -12,7 +12,7 @@ Count all possible N-length vowel permutations that can be generated based on th
 - For input 2, output is 10 because possible combinations are "ae, ea, ei, ia, ie, io, iu, oi, ou, ua"
 - For input 5, output should be 68
 
-### Unit Tests: Count Vowel Permutations
+### 1.1. Unit Tests: Count Vowel Permutations
 Unit tests embedded in the source script [vowel_permutations.py](./vowel_permutations.py)
 
 - How to run:
@@ -37,10 +37,10 @@ Ran 2 tests in 0.000s
 OK
 ```
 
-## Find duplicate words
+## 2. Find duplicate words
 Find duplicate words in a string. For input, "how are you and did you eat something", output should be ['you'].
 
-### Unit Tests: Find duplicate words
+### 2.1. Unit Tests: Find duplicate words
 Unit tests are in separate script [test_duplicate_words.py](./test_duplicate_words.py)
 
 - How to run:
