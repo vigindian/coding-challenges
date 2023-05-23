@@ -38,7 +38,11 @@ OK
 ```
 
 ## 2. Find duplicate words
-Find duplicate words in a string. For input, "how are you and did you eat something", output should be ['you'].
+Find duplicate words in a string.
+
+**Expected Output**:
+- For input, "how are you", output should be empty array [].
+- For input, "how are you and did you eat something", output should be ['you'].
 
 ### 2.1. Unit Tests: Find duplicate words
 Unit tests are in separate script [test_duplicate_words.py](./test_duplicate_words.py)
