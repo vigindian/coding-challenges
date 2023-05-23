@@ -6,8 +6,6 @@ import random
 import re
 import sys
 
-
-
 #
 # Complete the 'avgRotorSpeed' function below.
 #
