@@ -9,7 +9,7 @@
 
 import unittest
 
-def count_vowel_permutations(n):
+def count_vowel_permutations(n: int):
     n = int(n)
     a, e, i, o, u = 1, 1, 1, 1, 1
     for _ in range(n - 1):
@@ -20,7 +20,7 @@ def count_vowel_permutations(n):
 class TestVowelPermutations(unittest.TestCase):
   def test_vowel_permutations_integer(self):
     """
-    Test that vowel permutations are identified: integer input 
+    Test that vowel permutations are calculated: integer input
     """
     N = 5
     result = count_vowel_permutations(N)
@@ -28,11 +28,20 @@ class TestVowelPermutations(unittest.TestCase):
 
   def test_vowel_permutations_float(self):
     """
-    Test that vowel permutations are identified: float input
+    Test that vowel permutations are calculated: float input
     """
     N = 6.0
     result = count_vowel_permutations(N)
     self.assertEqual(result, 129)
+
+  def test_vowel_permutations_string(self):
+    """
+    Test that vowel permutations are calculated: string
+    """
+    N = "invalid_input"
+    with self.assertRaises(ValueError):
+      result = count_vowel_permutations(N)
+
 
 if __name__ == '__main__':
     N = 2
