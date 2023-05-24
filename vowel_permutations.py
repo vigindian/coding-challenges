@@ -36,7 +36,7 @@ class TestVowelPermutations(unittest.TestCase):
 
   def test_vowel_permutations_string(self):
     """
-    Test that vowel permutations are calculated: string
+    Test expected error for vowel permutations calculation: string
     """
     N = "invalid_input"
     with self.assertRaises(ValueError):
